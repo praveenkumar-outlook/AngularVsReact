@@ -2,9 +2,11 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { HelloComponent } from "./Components/Hello";
+import { NotFoundComponent } from "./Components/NotFound";
 
 const routes: Routes = [
-  { path: 'hello', component: HelloComponent }
+  { path: '', component: HelloComponent },
+  { path: '**', component: NotFoundComponent }
 ];
 
 @NgModule({

@@ -1,9 +1,17 @@
 import * as React from "react";
-import {BrowserRouter as Router, Route} from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch
+} from "react-router-dom";
 import Hello from "./Components/Hello";
+import NotFound from "./Components/NotFound";
 
 export default () => (
   <Router basename="/">
-    <Route path="/hello" component={Hello} />
+    <Switch>
+      <Route exact path="/" component={Hello} />
+      <Route component={NotFound} />
+    </Switch>
   </Router>
 );

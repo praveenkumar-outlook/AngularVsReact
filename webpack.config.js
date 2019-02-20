@@ -6,7 +6,8 @@ const config = {
   entry: {
     core: path.join(__dirname, "node_modules/core-js/client/shim.min.js"),
     zone: path.join(__dirname, "node_modules/zone.js/dist/zone.js"),
-    app: path.join(__dirname, "src/index.tsx")
+    angular: path.join(__dirname, "src/angular.ts"),
+    react: path.join(__dirname, "src/react.tsx")
   },
   output: {
     path: path.join(__dirname, "dist"),
