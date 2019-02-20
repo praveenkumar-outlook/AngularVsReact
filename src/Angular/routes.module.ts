@@ -6,6 +6,11 @@ import { NotFoundComponent } from "./Components/NotFound";
 
 const routes: Routes = [
   { path: '', component: HelloComponent },
+  {
+    path: 'lazy-load',
+    loadChildren: () => import(/* webpackChunkName: "LazyAngular" */ "./Components/LazyLoad/lazy-load.module")
+      .then((module) => module["LazyLoadModule"])
+  },
   { path: '**', component: NotFoundComponent }
 ];
 
