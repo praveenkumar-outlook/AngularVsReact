@@ -4,7 +4,9 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 const config = {
   entry: {
-    react: path.join(__dirname, "src/index.tsx")
+    core: path.join(__dirname, "node_modules/core-js/client/shim.min.js"),
+    zone: path.join(__dirname, "node_modules/zone.js/dist/zone.js"),
+    app: path.join(__dirname, "src/index.tsx")
   },
   output: {
     path: path.join(__dirname, "dist"),
@@ -35,6 +37,10 @@ const config = {
       use: {
         loader: "ts-loader"
       }
+    },
+    {
+      test: /\.html$/,
+      loader: "html-loader"
     }]
   }
 };

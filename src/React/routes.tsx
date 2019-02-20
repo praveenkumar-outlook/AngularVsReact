@@ -4,6 +4,6 @@ import Hello from "./Components/Hello";
 
 export default () => (
   <Router basename="/">
-    <Route path="/react" component={Hello} />
+    <Route path="/hello" component={Hello} />
   </Router>
 );
