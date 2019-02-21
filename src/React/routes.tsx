@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import Loadable from "react-loadable";
 import Hello from "./Components/Hello";
+import BulkData from "./Components/BulkData";
 import NotFound from "./Components/NotFound";
 
 const LazyLoadComponent = Loadable({
@@ -18,6 +19,7 @@ export default () => (
     <Switch>
       <Route exact path="/" component={Hello} />
       <Route exact path="/lazy-load" component={LazyLoadComponent} />
+      <Route exact path="/bulk-data" component={BulkData} />
       <Route component={NotFound} />
     </Switch>
   </Router>

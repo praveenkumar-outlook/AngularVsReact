@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { HelloComponent } from "./Components/Hello";
+import { BulkDataComponent } from "./Components/BulkData";
 import { NotFoundComponent } from "./Components/NotFound";
 
 const routes: Routes = [
@@ -11,6 +12,7 @@ const routes: Routes = [
     loadChildren: () => import(/* webpackChunkName: "LazyAngular" */ "./Components/LazyLoad/lazy-load.module")
       .then((module) => module["LazyLoadModule"])
   },
+  { path: 'bulk-data', component: BulkDataComponent },
   { path: '**', component: NotFoundComponent }
 ];
 

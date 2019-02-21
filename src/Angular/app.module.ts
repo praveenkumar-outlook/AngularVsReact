@@ -5,12 +5,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RoutingModule } from './routes.module';
 import { AppComponent } from './Components/App';
 import { HelloComponent } from './Components/Hello';
+import { BulkDataComponent } from './Components/BulkData';
 import { NotFoundComponent } from './Components/NotFound';
 
 @NgModule({
   declarations: [
     AppComponent,
     HelloComponent,
+    BulkDataComponent,
     NotFoundComponent
   ],
   imports: [
