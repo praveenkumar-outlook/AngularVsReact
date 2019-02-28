@@ -1,5 +1,11 @@
-# UI-PerformanceCompare
+# AngularVsReact
 Performance Comparison for Angular and React
+
+## Performance
+- [Comparison](https://github.com/praveenkumar-outlook/AngularVsReact/tree/master/docs/Comparison)
+- [Application Bootstrap](https://github.com/praveenkumar-outlook/AngularVsReact/tree/master/docs/ApplicationBootstrap)
+- [Bulk Data](https://github.com/praveenkumar-outlook/AngularVsReact/tree/master/docs/BulkData)
+- [Lazy Load](https://github.com/praveenkumar-outlook/AngularVsReact/tree/master/docs/LazyLoad)
 
 ## Specifications
  - React 16.x.x
@@ -15,6 +21,3 @@ Performance Comparison for Angular and React
 ## Usage
  - `npm run dev` - Run with Webpack dev server
  - `npm run build` - Build production-ready code
-
-## Comparison
-![alt text](https://raw.githubusercontent.com/praveenkumar-outlook/AngularVsReact/master/src/comparison.png)
