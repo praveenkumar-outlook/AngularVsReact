@@ -1,21 +1,22 @@
 {
-  "name": "ui-performancecompare",
+  "name": "angularvsreact",
   "version": "1.0.0",
-  "description": "Performance Comparison for UI frameworks",
+  "description": "Performance Comparison for Angular and React",
   "main": "webpack.config.js",
   "scripts": {
-    "dev": "webpack-dev-server"
+    "dev": "webpack-dev-server",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/praveenkumar-outlook/UI-PerformanceCompare.git"
+    "url": "git+https://github.com/praveenkumar-outlook/AngularVsReact.git"
   },
   "author": "Praveenkumar K",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/praveenkumar-outlook/UI-PerformanceCompare/issues"
+    "url": "https://github.com/praveenkumar-outlook/AngularVsReact/issues"
   },
-  "homepage": "https://github.com/praveenkumar-outlook/UI-PerformanceCompare#readme",
+  "homepage": "https://github.com/praveenkumar-outlook/AngularVsReact#readme",
   "devDependencies": {
     "@types/node": "^11.9.4",
     "file-loader": "^3.0.1",
