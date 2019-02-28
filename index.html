@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Webpack</title>
+    <base href="/AngularVsReact/" />
+    <!-- Materialize Css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Materialize Js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </head>
+  <body>
+    <div class="row" style="margin: 0;">
+      <div class="col s3">
+        <ul id="slide-out" class="sidenav sidenav-fixed">
+          <li>
+            <a href="/" style="text-align: center; height: 100px; margin: 20px 0;">
+              <img src="images/logo.png" style="height: 100px; width: 120px;" />
+            </a>
+          </li>
+          <li><a href="#/">Hello World</a></li>
+          <li><a href="#/lazy-load">Lazy load Component</a></li>
+          <li><a href="#/bulk-data">Bulk data Load</a></li>
+        </ul>
+      </div>
+      <div class="col s9">
+        <div class="angular-container" style="border-bottom: 1px solid #000; height: 50vh; overflow: auto;">
+          <app-root></app-root>
+        </div>
+        <div class="react-container" style="height: 50vh; overflow: auto;">
+          <div id="react"></div>
+        </div>
+      </div>
+    </div>
+  <script type="text/javascript" src="scripts/core.bundle.js"></script><script type="text/javascript" src="scripts/zone.bundle.js"></script><script type="text/javascript" src="scripts/angular.bundle.js"></script><script type="text/javascript" src="scripts/react.bundle.js"></script></body>
+</html>
