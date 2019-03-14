@@ -6,6 +6,7 @@ import { RoutingModule } from './routes.module';
 import { AppComponent } from './Components/App';
 import { HelloComponent } from './Components/Hello';
 import { BulkDataComponent } from './Components/BulkData';
+import { SecurityComponent } from './Components/Security';
 import { NotFoundComponent } from './Components/NotFound';
 
 @NgModule({
@@ -13,6 +14,7 @@ import { NotFoundComponent } from './Components/NotFound';
     AppComponent,
     HelloComponent,
     BulkDataComponent,
+    SecurityComponent,
     NotFoundComponent
   ],
   imports: [

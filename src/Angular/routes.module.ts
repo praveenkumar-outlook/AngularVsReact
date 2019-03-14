@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { HelloComponent } from "./Components/Hello";
 import { BulkDataComponent } from "./Components/BulkData";
+import { SecurityComponent } from "./Components/Security";
 import { NotFoundComponent } from "./Components/NotFound";
 
 const routes: Routes = [
@@ -13,6 +14,7 @@ const routes: Routes = [
       .then((module) => module["LazyLoadModule"])
   },
   { path: 'bulk-data', component: BulkDataComponent },
+  { path: 'security', component: SecurityComponent },
   { path: '**', component: NotFoundComponent }
 ];
 

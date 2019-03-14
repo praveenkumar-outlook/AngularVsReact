@@ -11,6 +11,16 @@
     "type": "git",
     "url": "git+https://github.com/praveenkumar-outlook/AngularVsReact.git"
   },
+  "keywords": [
+    "angular",
+    "react",
+    "performance",
+    "angularvsreact",
+    "lazyload",
+    "bulk-data",
+    "hello-world",
+    "security"
+  ],
   "author": "Praveenkumar K",
   "license": "ISC",
   "bugs": {
@@ -36,6 +46,7 @@
     "@angular/platform-browser": "^7.2.5",
     "@angular/platform-browser-dynamic": "^7.2.5",
     "@angular/router": "^7.2.5",
+    "@types/react": "^16.8.8",
     "core-js": "^2.6.5",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",

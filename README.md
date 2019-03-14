@@ -6,6 +6,7 @@ Performance Comparison for Angular and React
 - [Application Bootstrap](https://github.com/praveenkumar-outlook/AngularVsReact/tree/master/docs/ApplicationBootstrap)
 - [Bulk Data](https://github.com/praveenkumar-outlook/AngularVsReact/tree/master/docs/BulkData)
 - [Lazy Load](https://github.com/praveenkumar-outlook/AngularVsReact/tree/master/docs/LazyLoad)
+- [Security](https://github.com/praveenkumar-outlook/AngularVsReact/tree/master/docs/Security)
 
 ## Specifications
  - React 16.x.x
