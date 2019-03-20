@@ -7,7 +7,8 @@ const config = {
     core: path.join(__dirname, "node_modules/core-js/client/shim.min.js"),
     zone: path.join(__dirname, "node_modules/zone.js/dist/zone.js"),
     angular: path.join(__dirname, "src/angular.ts"),
-    react: path.join(__dirname, "src/react.tsx")
+    react: path.join(__dirname, "src/react.tsx"),
+    vue: path.join(__dirname, "src/vue.ts")
   },
   output: {
     path: path.join(__dirname, "dist"),
@@ -15,7 +16,10 @@ const config = {
   },
   mode: "development",
   resolve: {
-    extensions: [".ts", ".js", ".tsx"]
+    extensions: [".ts", ".js", ".tsx"],
+    alias: {
+      vue: 'vue/dist/vue.js'
+    }
   },
   devtool: "inline-source-map",
   plugins: [
