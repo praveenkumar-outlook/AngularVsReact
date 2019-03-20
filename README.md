@@ -1,5 +1,5 @@
-# AngularVsReact
-Performance Comparison for Angular and React
+# AngularVsReactVsVue
+Performance Comparison for Angular, React and Vue
 
 ## Performance
 - [Comparison](https://github.com/praveenkumar-outlook/AngularVsReact/tree/master/docs/Comparison)
@@ -11,6 +11,7 @@ Performance Comparison for Angular and React
 ## Specifications
  - React 16.x.x
  - Angular 7.x.x
+ - Vue 2.x.x
  - Typescript
 
 # Requirements

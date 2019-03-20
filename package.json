@@ -1,7 +1,7 @@
 {
-  "name": "angularvsreact",
+  "name": "angularvsreactvsvue",
   "version": "1.0.0",
-  "description": "Performance Comparison for Angular and React",
+  "description": "Performance Comparison for Angular, React and Vue",
   "main": "webpack.config.js",
   "scripts": {
     "dev": "webpack-dev-server",
@@ -9,24 +9,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/praveenkumar-outlook/AngularVsReact.git"
+    "url": "git+https://github.com/praveenkumar-outlook/AngularVsReactVsVue.git"
   },
   "keywords": [
     "angular",
     "react",
+    "vue",
     "performance",
-    "angularvsreact",
+    "angularvsreactvsvue",
     "lazyload",
     "bulk-data",
     "hello-world",
     "security"
   ],
-  "author": "Praveenkumar K",
+  "author": "Praveenkumar K <praveen.ece@outlook.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/praveenkumar-outlook/AngularVsReact/issues"
+    "url": "https://github.com/praveenkumar-outlook/AngularVsReactVsVue/issues"
   },
-  "homepage": "https://github.com/praveenkumar-outlook/AngularVsReact#readme",
+  "homepage": "https://github.com/praveenkumar-outlook/AngularVsReactVsVue#readme",
   "devDependencies": {
     "@types/node": "^11.9.4",
     "file-loader": "^3.0.1",
